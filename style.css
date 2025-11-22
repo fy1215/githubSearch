@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#search {
+    position: relative;
+    display: inline-block;
+}
+
+#searchText {
+    padding: 10px 50px 10px 10px;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid #333;
+    width: 300px;
+}
+
+#searchButton {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    background: transparent;
+}
+
+#searchButton:hover{
+    color:#4eadb8;
+    background-color: rgb(230, 230, 230);
+}
